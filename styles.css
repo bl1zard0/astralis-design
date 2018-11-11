@@ -1,0 +1,85 @@
+ body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+#stranka {
+   width: auto;
+   margin: 80px auto 0 auto;
+   border: none;
+   text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    background: rgba(0,0,0,0.4);
+}
+li {
+    float: left;
+    padding-right: 0em;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 18px 50px;
+        text-decoration: none;
+        font-family: Corbel;
+        transition: 0.2s;       
+        font-weight: bold;
+    }
+
+
+img.resize {
+    max-width: 53px;
+    max-height: auto;
+    float: left;
+    padding-right: 0em;
+    padding-left: 2em;
+}
+
+li a.active {
+    color: white;
+    background: rgba(0) 
+}
+a.button1 {
+    display: inline-block;
+    color: white;
+    font-weight: 50;
+    text-decoration: none;
+    user-select: none;
+    padding: .4em 2em;
+    outline: yes;
+    border: yes;
+    border-radius: 0px;
+    transition: 0.2s;
+}
+a.button1:hover {
+    background: rgba(255,255,255,.2);
+}
+a.button1:active {
+    background: white;
+}
+a {
+  text-decoration: none;
+  position: relative;
+  color: #ffffff;
+}
+a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #ffffff;
+  transition: 0.4s;
+}
+a:hover:after {
+  width: 100%;
+}
